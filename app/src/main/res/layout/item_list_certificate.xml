@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Card View widget-->
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_course_item"
+    android:layout_width="153dp"
+    android:layout_height="142dp"
+    card_view:contentPadding="8dp"
+    card_view:cardCornerRadius="18dp"
+    card_view:cardElevation="2dp"
+    android:layout_marginVertical="5dp"
+    card_view:cardBackgroundColor="@color/accent_blue"
+    android:layout_marginHorizontal="5dp"
+    >
+
+    <!--Text View over Card View-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_course_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:backgroundTint="@color/white"
+            android:background="@drawable/ic_if_badge" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:textAlignment="center"
+            android:text="CCIP"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_gravity="right"
+
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txt_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginRight="5dp"
+                android:text="Details"
+                android:gravity="right"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ic_right_arrow"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

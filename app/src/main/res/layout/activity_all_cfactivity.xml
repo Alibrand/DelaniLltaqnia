@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    tools:context=".AllCFActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/oval_yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginTop="-15dp"
+            android:background="@drawable/oval_yello"/>
+        <ImageView
+            android:id="@+id/oval_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="-15dp"
+
+            android:background="@drawable/oval_accent_blue"/>
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_md_chevron_left"
+            android:backgroundTint="@color/accent_light_blue"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Computing Fields"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/btn_back"
+            android:layout_alignBottom="@id/oval_yellow"
+            android:textSize="36sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="240dp"
+        android:layout_marginTop="25dp"
+        android:layout_height="1dp"
+        android:background="@color/divider_color"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+        <ProgressBar
+            android:id="@+id/progress_cf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_computing_fields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:spanCount="2"
+            android:layout_marginLeft="25dp"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            android:layout_centerInParent="true"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </RelativeLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

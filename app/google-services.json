@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "527984392571",
+    "project_id": "delani-lltaqnia",
+    "storage_bucket": "delani-lltaqnia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527984392571:android:850bf845c9f7addcc965de",
+        "android_client_info": {
+          "package_name": "com.CPIS498.delanilltaqnia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527984392571-0dcvhojicsg8n8157sqhm3orsb4vr5rr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwHJNTYrL9D_mQAENOtTbQV7f81LhZec8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527984392571-0dcvhojicsg8n8157sqhm3orsb4vr5rr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

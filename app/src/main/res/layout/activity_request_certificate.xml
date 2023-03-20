@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".RequestCertificateActivity" >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:background="#ff0000">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/dblue_background" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:background="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_panel"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+
+        android:background="@drawable/shape_login_panel"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp"
+        android:paddingTop="110dp"
+        android:paddingBottom="60dp"
+        android:paddingHorizontal="30dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/logo">
+
+        <TextView
+            android:text="Request to upload Certificate Form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="240dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/divider_color"/>
+       <androidx.appcompat.widget.LinearLayoutCompat
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="10dp"
+           android:gravity="center">
+           <androidx.appcompat.widget.AppCompatButton
+               android:id="@+id/btn_select_image"
+               android:textAllCaps="false"
+               android:paddingHorizontal="5dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginRight="10dp"
+               android:background="@drawable/round_btn_stroke"
+               android:text="Select Image"/>
+           <ImageView
+               android:id="@+id/iv_certificate_logo"
+               android:layout_height="76dp"
+               android:layout_width="126dp"
+               android:src="@drawable/dummy_image"/>
+       </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <EditText
+            android:id="@+id/txt_certificate_title"
+            android:background="@drawable/round_edit_text"
+            android:layout_width="match_parent"
+            android:paddingVertical="5dp"
+            android:paddingLeft="10dp"
+            android:inputType="text"
+            android:hint="Certificate Title"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_marginTop="5dp"
+            android:inputType="textMultiLine"
+            android:id="@+id/txt_certificate_brief"
+            android:paddingVertical="5dp"
+            android:background="@drawable/round_multiline_edit_text"
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+
+            android:maxLines="5"
+            android:hint="Certificate Brief"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/txt_certificate_url"
+            android:background="@drawable/round_edit_text"
+            android:layout_width="match_parent"
+            android:paddingVertical="5dp"
+            android:paddingLeft="10dp"
+            android:inputType="text"
+            android:hint="External link e.g http://certificate.com"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="169dp"
+        android:layout_height="169dp"
+        android:src="@drawable/logo"
+
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_send"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Send"
+        android:background="@drawable/round_btn_dark"
+        app:layout_constraintBottom_toBottomOf="@id/login_panel"
+         android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAllCaps="false"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.227" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/circle_shadow.xml" value="0.1485" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/circle_small.xml" value="0.181" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/circular_btn.xml" value="0.165" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/dblue_background.xml" value="0.199" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/horizontal_line.xml" value="0.165" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/ic_logout_svgrepo_com.xml" value="0.165" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/ic_md_chevron_left.xml" value="0.2525" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/ic_md_ondemand_video.xml" value="0.1645" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/ic_open_book_svgrepo_com.xml" value="0.165" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/ic_r_menu_icon.xml" value="0.165" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/ic_riline_fc_icon.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/ic_riline_instagram_line.xml" value="0.227" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/ic_riline_right_arrow.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/indicator_default.xml" value="0.165" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/indicator_selected.xml" value="0.165" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/indicator_selector.xml" value="0.165" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/oval.xml" value="0.227" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/oval_accent_blue.xml" value="0.227" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/oval_accent_dblue.xml" value="0.227" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/oval_dark_blue.xml" value="0.227" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/oval_yello.xml" value="0.2085" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/round_btn.xml" value="0.227" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/round_btn_dark.xml" value="0.1485" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/round_btn_stroke.xml" value="0.199" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/round_edit_text.xml" value="0.1485" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/round_multiline_edit_text.xml" value="0.181" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/round_rect_btn_stroke.xml" value="0.129" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/shape_login_panel.xml" value="0.165" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/drawable/user_circle_o.xml" value="0.1485" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_add_expert.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_admin.xml" value="0.21" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_all_books.xml" value="0.10104166666666667" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_all_certificates.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_all_cfactivity.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_all_courses.xml" value="0.15471311475409835" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_all_experts.xml" value="0.10069444444444445" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_all_request.xml" value="0.1366120218579235" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_login.xml" value="0.21" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_main.xml" value="0.1638888888888889" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_request_book.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_request_certificate.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_reset_password.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_sign_up.xml" value="0.1366120218579235" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_thanks.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_view_certificate.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_view_cfactivity.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_view_course.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/activity_welcome.xml" value="0.21" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/item_list_book.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/item_list_certificate.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/item_list_computing_field.xml" value="0.11458333333333333" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/item_list_course.xml" value="0.67" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/item_list_expert.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/item_list_request.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/item_spinner.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/login_fragment.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/main_fragment.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/reset_password_fragment.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/sign_up_fragment.xml" value="0.21" />
+        <entry key="..\:/AndroidProjects/DelaniLltaqnia/app/src/main/res/layout/welcome_fragment.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

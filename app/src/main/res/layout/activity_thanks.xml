@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+        <RelativeLayout
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/ly_header"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@color/accent_blue"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <ImageView
+                android:id="@+id/oval_yellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-40dp"
+                android:layout_marginTop="-15dp"
+                android:background="@drawable/oval_yello" />
+
+            <ImageView
+                android:id="@+id/oval_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="-15dp"
+
+                android:background="@drawable/oval_accent_blue" />
+
+            <ImageButton
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_md_chevron_left"
+                android:backgroundTint="@color/white" />
+
+
+        </RelativeLayout>
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="169dp"
+        android:layout_height="169dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/ly_header"
+        app:layout_constraintTop_toBottomOf="@id/ly_header"
+        android:src="@drawable/logo" />
+
+        <LinearLayout
+            app:layout_constraintTop_toBottomOf="@id/logo"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="35dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thanks for sending your request."
+                android:fontFamily="sans-serif"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:typeface="normal" />
+            <View
+                android:layout_width="240dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="1dp"
+
+                android:background="@color/divider_color"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_back_home"
+                android:text="Back To Home Page"
+                android:textAllCaps="false"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/white"
+                android:background="@drawable/round_btn"
+                android:paddingHorizontal="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

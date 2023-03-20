@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/lightGrey"
+    android:layout_height="match_parent">
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddExpertActivity">
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imv_splash"
+            android:layout_width="188dp"
+            android:layout_height="166dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/splash" />
+
+          </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/panel_grey_border"
+        android:paddingBottom="15dp"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:id="@+id/login_panel"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+
+            android:background="@drawable/shape_login_panel"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="20dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="60dp"
+            android:paddingHorizontal="30dp"
+            android:gravity="center_horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            >
+
+            <TextView
+                android:text="Add Expert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textSize="18sp"
+                android:layout_gravity="center"/>
+            <View
+                android:layout_width="240dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/divider_color"/>
+
+            <EditText
+                android:id="@+id/txt_expert_name"
+                android:background="@drawable/round_edit_text"
+                android:layout_width="match_parent"
+                android:paddingVertical="5dp"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:paddingHorizontal="10dp"
+                android:hint="Expert Name"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:layout_marginTop="5dp"
+                android:inputType="textMultiLine"
+                android:id="@+id/txt_expert_brief"
+                android:paddingVertical="5dp"
+                android:background="@drawable/round_multiline_edit_text"
+                android:layout_width="match_parent"
+                android:paddingHorizontal="10dp"
+                android:maxLines="5"
+                android:maxLength="90"
+                android:hint="Expert Brief"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/txt_expert_jobtitle"
+                android:background="@drawable/round_edit_text"
+                android:layout_width="match_parent"
+                android:paddingVertical="5dp"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:hint="Job Title"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Social Media Accounts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:layout_marginVertical="5dp"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textSize="16sp"
+                android:layout_gravity="center"/>
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/txt_instagram_account"
+                android:background="@drawable/round_edit_text"
+                android:layout_width="match_parent"
+                android:paddingVertical="5dp"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:hint="Instagram Account without @"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/txt_twitter_account"
+                android:background="@drawable/round_edit_text"
+                android:layout_width="match_parent"
+                android:paddingVertical="5dp"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:hint="Twitter Account without @"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/txt_snapchat_account"
+                android:background="@drawable/round_edit_text"
+                android:layout_width="match_parent"
+                android:paddingVertical="5dp"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:hint="Snapchat Account without @"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Upload in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:layout_marginVertical="5dp"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textSize="16sp"
+                android:layout_gravity="center"/>
+            <Spinner
+
+                android:id="@+id/spinner_all_cf"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/round_btn_stroke"/>
+
+
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_upload"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:backgroundTint="#66dd88"
+            android:text="Upload"
+            android:background="@drawable/round_btn_dark"
+            app:layout_constraintBottom_toBottomOf="@id/login_panel"
+            android:layout_marginRight="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textAllCaps="false"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

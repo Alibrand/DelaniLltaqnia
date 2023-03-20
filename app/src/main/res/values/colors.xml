@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_blue">#00235E</color>
+    <color name="accent_blue">#618ABB</color>
+    <color name="accent_light_blue">#B9D1EA</color>
+    <color name="yellow">#FDBA21</color>
+    <color name="grey">#6C6C6C</color>
+    <color name="purple">#D52667</color>
+    <color name="alpha_grey">#586C6C6C</color>
+    <color name="selected_indicator">#156ADA</color>
+    <color name="default_indicator">#C1BDBD</color>
+    <color name="divider_color">#BBBBBB</color>
+    <color name="shadow">#3AB6B5B5</color>
+    <color name="black">#FF101010</color>
+    <color name="lightGrey">#ffF2F2F2</color>
+
+    <color name="white">#FFFFFFFF</color>
+</resources>
